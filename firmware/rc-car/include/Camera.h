@@ -3,7 +3,7 @@
 
 class CameraM {
     public:
-        static void init();
+        static bool init();
 };
 
 #endif
