@@ -12,6 +12,9 @@ class IMUM {
         static void init();
         static IMUData read();
         static void upadte();
+        static double getHeading();
+    private:
+        static IMUData imuData;
 };
 
 #endif

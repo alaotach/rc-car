@@ -14,6 +14,8 @@ class NavM {
         static void update();
         static Mode getMode();
         static Mode setMode(Mode mode);
+    private:
+        static Mode mode;
 };
 
 #endif
