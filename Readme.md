@@ -18,7 +18,7 @@ I wanted to steal chips from my nephew.
 - `pcb/rc-car.kicad_pcb` - The main PCB layout file.
 - `pcb/rc-car.kicad_sch` - The main schematic.
 - `pcb/rc-car.kicad_pro` - KiCad project file for editing.
-- `fabrication/pcb/` - Gerbers and drill files for manufacturing.
+- `pcb/fabrication/` - Gerbers and drill files for manufacturing.
 - `fabrication/3d/pcb-model.stl` - 3D model of the PCB.
 
 **Firmware:**
@@ -37,7 +37,7 @@ I wanted to steal chips from my nephew.
 ## The Files You Actually Need
 **To Manufacture the PCB:**
 1. `pcb/rc-car.kicad_pcb`
-2. `fabrication/pcb/` - Gerbers and drill files.
+2. `pcb/fabrication/` - Gerbers and drill files.
 3. `pcb/rc-car.kicad_sch`
 
 **To Print the Case:**
@@ -49,7 +49,7 @@ I wanted to steal chips from my nephew.
 ## Build Guide
 
 ### Step 1 - Export Gerbers from KiCad
-Open `pcb/rc-car.kicad_pcb` in KiCad, generate Gerbers and drill files, and export them into `fabrication/pcb/`. Zip all outputs together.
+Open `pcb/rc-car.kicad_pcb` in KiCad, generate Gerbers and drill files, and export them into `pcb/fabrication/`. Zip all outputs together.
 
 ---
 
