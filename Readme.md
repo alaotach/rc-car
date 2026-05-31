@@ -16,6 +16,9 @@ I wanted to steal chips from my nephew.
 **PCB & Hardware Files:**
 - `pcb/` - KiCad project files, schematics, symbols, footprints, and BOM.
 - `pcb/rc-car.kicad_pcb` - The main PCB layout file.
+<img width="563" height="443" alt="Screenshot_2026-05-29_181340-removebg-preview" src="https://github.com/user-attachments/assets/c2eb8861-43fe-4731-beb8-2e644d26db97" />
+<img width="578" height="431" alt="Screenshot_2026-05-29_181356-removebg-preview" src="https://github.com/user-attachments/assets/aefa973c-b016-4c9d-ada1-ab888bcce0c1" />
+
 - `pcb/rc-car.kicad_sch` - The main schematic.
 - `pcb/rc-car.kicad_pro` - KiCad project file for editing.
 - `pcb/fabrication/` - Gerbers and drill files for manufacturing.
