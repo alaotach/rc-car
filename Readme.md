@@ -1,87 +1,146 @@
-# Quixie
+# Quixie - RC Delivery Car
 
-## Project Overview
-Quixie is a a small RC delivery car, the pcb board handles motor control and sensor expansion, while the firmware manages navigation and telemetry.
+Quixie is a small autonomous RC delivery car. The custom PCB handles motor control and sensor expansion; the firmware manages navigation, telemetry, and the locking cargo bay.
 
-## Why I Built This
-I wanted to steal chips from my nephew.
+> Built by **AlAoTach** for [Fallout](https://fallout.hackclub.com/)
 
-<img width="1587" height="2245" alt="quixie-zine" src="https://github.com/user-attachments/assets/b236df10-8bf9-4805-842d-9b7c5c97aa7d" />
+<img width="1587" height="2245" alt="Blue and Pink Modern Film Poster(4)" src="https://github.com/user-attachments/assets/5c156925-4bee-4ae4-8458-a2cd0e61f788" />
 
 ---
 
-<img width="1477" height="1065" alt="PCB-Info" src="https://github.com/user-attachments/assets/6d4a1d5e-4a79-4eee-a3e1-453b37cab4f3" />
+## Why I Built This
 
-## What's Inside This Folder
-**PCB & Hardware Files:**
-- `pcb/` - KiCad project files, schematics, symbols, footprints, and BOM.
-- `pcb/rc-car.kicad_pcb` - The main PCB layout file.
-<img width="563" height="443" alt="Screenshot_2026-05-29_181340-removebg-preview" src="https://github.com/user-attachments/assets/c2eb8861-43fe-4731-beb8-2e644d26db97" />
-<img width="578" height="431" alt="Screenshot_2026-05-29_181356-removebg-preview" src="https://github.com/user-attachments/assets/aefa973c-b016-4c9d-ada1-ab888bcce0c1" />
+I wanted to steal chips from my nephew.
 
-- `pcb/rc-car.kicad_sch` - The main schematic.
-- `pcb/rc-car.kicad_pro` - KiCad project file for editing.
-- `pcb/fabrication/` - Gerbers and drill files for manufacturing.
-- `fabrication/3d/pcb-model.stl` - 3D model of the PCB.
+---
 
-**Firmware:**
-- `firmware/rc-car/` - All firmware source code.
-- `firmware/rc-car/include/` - Header files.
-- `firmware/rc-car/src/` - Implementation files.
+## Key Features
 
-**3D Case Files:**
-- `fabrication/3d/rc-car-case.f3d` - CAD source for the case.
-- `fabrication/3d/rc-car-case.stl` - 3D printable case.
+- **Servo locked cargo bay** - lid opens and closes automatically via servo motor
+- **Live camera feed** - ESP32-CAM streamed to the web dashboard
+- **GPS navigation** - Neo-8M for real-time position tracking
+- **Obstacle avoidance** - 3× ultrasonic sensors
+- **OLED display** - SSD1306 1.3" on-device status screen
+---
 
-**Misc Files:**
-- `pcb/rc-car-BOM.csv` - BOM.
-- `docs/assets/` - Project images and media.
+## Tech Specs
 
-## The Files You Actually Need
-**To Manufacture the PCB:**
-1. `pcb/rc-car.kicad_pcb`
-2. `pcb/fabrication/` - Gerbers and drill files.
-3. `pcb/rc-car.kicad_sch`
+| Component | Part |
+|-----------|------|
+| MCU | ESP32 Mini (ESP32-S3) |
+| Motors | Dual DC Geared, 12V |
+| Driver | BTN7960B (43A) |
+| GPS | Neo-6M |
+| IMU | BMI270 |
+| Sensors | Ultrasonic ×3 |
+| Camera | ESP32-CAM |
+| Display | SSD1306 OLED (1.11") |
+| Battery | 3S Li-ion (11.1V) |
+| Comms | WiFi — Web + WebSocket |
 
-**To Print the Case:**
-1. `fabrication/3d/rc-car-case.stl`
-2. `fabrication/3d/rc-car-case.f3d`
+---
+
+## System Overview
+
+<img width="1036" height="702" alt="image-Photoroom" src="https://github.com/user-attachments/assets/722206a5-9cf5-466a-ba7c-72d54a304c77" />
+
+---
+
+## What's in This Repo
+
+```
+quixie/
+├── pcb/                          # KiCad project
+│   ├── rc-car.kicad_pcb          # PCB layout
+│   ├── rc-car.kicad_sch          # Schematic
+│   ├── rc-car.kicad_pro          # Project file
+│   ├── rc-car-BOM.csv            # Bill of materials
+│   └── fabrication/              # Gerbers + drill files
+├── firmware/
+│   └── rc-car/
+│       ├── include/              # Header files + Config.h
+│       └── src/                  # Source files
+├── fabrication/
+│   └── 3d/
+│       ├── rc-car-case.f3d       # Fusion 360 CAD source
+│       ├── rc-car-case.stl       # 3D printable case
+│       └── pcb-model.stl         # 3D PCB model
+└── docs/assets/                  # Images and media
+```
+
+---
+
+## PCB
+
+Front and back of the custom PCB:
+
+<img width="1018" height="712" alt="Screenshot 2026-06-10 111952-Photoroom" src="https://github.com/user-attachments/assets/f790e00c-a156-43b5-a4cd-eb13d4456c9f" />
+
+<img width="1017" height="716" alt="Screenshot 2026-06-10 112009-Photoroom" src="https://github.com/user-attachments/assets/98d2909c-9894-481f-b554-26d8a72295c7" />
+
+---
+
+## 3D Case
+
+The case is 3D printable in PLA.
+
+<img width="1920" height="692" alt="rc-car_2026-Jun-09_08-27-36PM-000_CustomizedView2119663068" src="https://github.com/user-attachments/assets/829a8160-93ea-4615-b46d-b355fbbd46de" />
+<img width="1920" height="692" alt="rc-car_2026-Jun-09_08-28-37PM-000_CustomizedView30783760963" src="https://github.com/user-attachments/assets/cdd5af57-83ed-455d-b84e-d282fa896424" />
+<img width="1920" height="692" alt="450aec4a-f353-46d9-9899-f3d45b1544f4" src="https://github.com/user-attachments/assets/d51c8741-4ac8-4a92-a9a7-4d6e3ef11c2b" />
+
+**Open cargo bay**
+
+<img width="2089" height="753" alt="open-lid" src="https://github.com/user-attachments/assets/89a82c64-3837-4e8c-bbd9-17e5a106cff5" />
 
 ---
 
 ## Build Guide
 
-### Step 1 - Export Gerbers from KiCad
-Open `pcb/rc-car.kicad_pcb` in KiCad, generate Gerbers and drill files, and export them into `pcb/fabrication/`. Zip all outputs together.
+### Step 1 - Export Gerbers
 
----
+Open `pcb/rc-car.kicad_pcb` in KiCad. Generate Gerbers and drill files into `pcb/fabrication/`. Zip all outputs.
 
 ### Step 2 - Order the PCB
-Upload your Gerber zip to JLCPCB.
 
----
+Upload your Gerber zip to [JLCPCB](https://jlcpcb.com) or your preferred fab.
 
-### Step 3 - Solder and Populate
-Populate the core components, motor driver, connectors, and sensor headers.
+### Step 3 - Solder & Populate
 
----
+Solder the required components ( hope you have gotten SMD from jlcpcb )
 
-### Step 4 - Flash the Firmware
-Use PlatformIO in `firmware/rc-car/` to build and flash the firmware.
+### Step 4 - Flash Firmware
 
----
+```bash
+cd firmware/rc-car
+pio run --target upload
+```
 
-### Step 5 - 3D Print
-- **Material:** PLA works well.
-- Use `fabrication/3d/rc-car-case.stl`.
+Requires [PlatformIO](https://platformio.org/). Main config is in `firmware/rc-car/include/Config.h`.
 
----
+### Step 5 - 3D Print the Case
+
+- Material: PLA (PETG also works)
+- File: `fabrication/3d/rc-car-case.stl`
+- No supports needed for most orientations
 
 ### Step 6 - Final Assembly
-Mount the PCB in the case, wire the motors and power, and connect sensors.
+
+Mount the PCB in the case, wire motors and power, connect sensors. The servo for the lid attaches at the rear hinge point.
 
 ---
 
-### Modifying the Firmware
-- Main config lives in `firmware/rc-car/include/Config.h`.
-- Features are organized under `firmware/rc-car/src/`.
+## Modifying the Firmware
+
+All config parameters live in:
+
+```
+firmware/rc-car/include/Config.h
+```
+
+Features are split into modules under `firmware/rc-car/src/`.
+
+---
+
+## License
+
+Open source. Do what you want, just don't use it to steal chips from *my* nephew *cough cough*.
