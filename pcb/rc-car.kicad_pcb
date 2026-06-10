@@ -2994,7 +2994,7 @@
 			(uuid "15f5dd53-9151-4372-b276-12f7bc6ded7e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/aloo/Downloads/BTN7960B/BTN7960B.step"
+		(model "C:/Users/Aryan/Downloads/BTN7960B--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3667,7 +3667,7 @@
 			(uuid "0228ce6c-54f7-4ab3-abb2-31d6cfbbb5f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_NEO.step"
+		(model "C:/Users/Aryan/Downloads/NEO-M8M-0.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3675,7 +3675,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5967,15 +5967,15 @@
 			(uuid "12a3ca52-44b2-462f-987d-f9e318f5fa2c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -3 4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7175,7 +7175,7 @@
 			(uuid "8a2700fc-e106-41d0-88a1-e607044eccff")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/aloo/Downloads/BTN7960B/BTN7960B.step"
+		(model "C:/Users/Aryan/Downloads/BTN7960B--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10152,7 +10152,7 @@
 			(uuid "b3a6aa26-5055-4805-94d2-92f784857cd8")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/aloo/Downloads/BTN7960B/BTN7960B.step"
+		(model "C:/Users/Aryan/Downloads/BTN7960B--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11255,7 +11255,7 @@
 			(uuid "801a821e-5479-4e3d-9860-6083d1c27ece")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/aloo/Downloads/BTN7960B/BTN7960B.step"
+		(model "C:/Users/Aryan/Downloads/BTN7960B--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14172,6 +14172,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/Aryan/Downloads/ESP32-S3-MINI-1-N8--3DModel-STEP-510211.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -20245,7 +20256,7 @@
 			)
 		)
 		(property "Value" "XT30PW-M"
-			(at 2.54 -15.875 90)
+			(at 2.412 -13.962 90)
 			(layer "B.Fab")
 			(uuid "222d432f-11d9-494e-81ec-862ef046cde0")
 			(effects
@@ -20842,7 +20853,7 @@
 			(uuid "976e608d-4f66-474e-b817-920091f96c4a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/aloo/Downloads/XT30PW-M/XT30PW-M.step"
+		(model "C:/Users/Aryan/Downloads/XT30PW-M--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22045,7 +22056,7 @@
 			(uuid "7d39a19b-3aa8-440b-945d-af2464e24899")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RVA_VQFN-16-1EP_3.5x3.5mm_P0.5mm_EP2.14x2.14mm.step"
+		(model "C:/Users/Aryan/Downloads/BQ24650RVAR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22053,7 +22064,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
