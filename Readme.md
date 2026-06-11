@@ -112,7 +112,7 @@ The case is 3D printable in PLA.
 <img width="2200" height="1700" alt="schema-quixie-5" src="https://github.com/user-attachments/assets/e58a88eb-6501-40c8-9c23-099f7df2cba0" />
 
 ### Battery and charging
-<img width="2200" height="1700" alt="schema-quixie-6" src="https://github.com/user-attachments/assets/95f4600a-caf8-472d-acab-f20f8e250e37" />
+<img width="1438" height="907" alt="image" src="https://github.com/user-attachments/assets/4d7cee79-37f3-4762-9bd7-d7d1f7fde14a" />
 
 ---
 
