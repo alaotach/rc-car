@@ -97,22 +97,22 @@ The case is 3D printable in PLA.
 ## Schematic
 
 ### Main schema
-<img width="2200" height="1700" alt="schema-quixie-1" src="https://github.com/user-attachments/assets/c9dd8bd0-d4a5-4437-b89f-c266e1be7935" />
+<img width="2200" height="1700" alt="schema-quixie-1" src="https://github.com/user-attachments/assets/f15118f1-b7cd-45fb-b802-4cb44f64dbd8" />
 
 ### Motor schema
-<img width="2200" height="1700" alt="schema-quixie-2" src="https://github.com/user-attachments/assets/55f8e050-af8c-400f-a08d-a123ae8b02d2" />
+<img width="2200" height="1700" alt="schema-quixie-2" src="https://github.com/user-attachments/assets/12c0a425-9748-4532-b076-998283d890a8" />
 
 ### Ultrasonic and TOF
-<img width="2200" height="1700" alt="schema-quixie-3" src="https://github.com/user-attachments/assets/a02d5867-b998-47d5-b04c-a06fbc920b9c" />
+<img width="2200" height="1700" alt="schema-quixie-3" src="https://github.com/user-attachments/assets/ae5da451-9dc9-4f46-a04e-94920ff6b742" />
 
 ### Servo lock
-<img width="2200" height="1700" alt="schema-quixie-4" src="https://github.com/user-attachments/assets/97f7b2f0-2c54-4f77-8017-e3af1b55da7c" />
+<img width="2200" height="1700" alt="schema-quixie-4" src="https://github.com/user-attachments/assets/de41d557-a9e6-4d7d-b624-52a1bc6ce074" />
 
 ### Voltage divider
-<img width="2200" height="1700" alt="schema-quixie-5" src="https://github.com/user-attachments/assets/e58a88eb-6501-40c8-9c23-099f7df2cba0" />
+<img width="2200" height="1700" alt="schema-quixie-5" src="https://github.com/user-attachments/assets/3787d4a1-fac4-4772-b835-624111fe74b6" />
 
 ### Battery and charging
-<img width="1438" height="907" alt="image" src="https://github.com/user-attachments/assets/4d7cee79-37f3-4762-9bd7-d7d1f7fde14a" />
+<img width="2200" height="1700" alt="schema-quixie-6" src="https://github.com/user-attachments/assets/c9e3e440-f2ab-42e6-b80c-4239ef02188a" />
 
 ---
 
