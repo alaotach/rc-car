@@ -94,6 +94,28 @@ The case is 3D printable in PLA.
 
 ---
 
+## Schematic
+
+### Main schema
+<img width="2200" height="1700" alt="schema-quixie-1" src="https://github.com/user-attachments/assets/c9dd8bd0-d4a5-4437-b89f-c266e1be7935" />
+
+### Motor schema
+<img width="2200" height="1700" alt="schema-quixie-2" src="https://github.com/user-attachments/assets/55f8e050-af8c-400f-a08d-a123ae8b02d2" />
+
+### Ultrasonic and TOF
+<img width="2200" height="1700" alt="schema-quixie-3" src="https://github.com/user-attachments/assets/a02d5867-b998-47d5-b04c-a06fbc920b9c" />
+
+### Servo lock
+<img width="2200" height="1700" alt="schema-quixie-4" src="https://github.com/user-attachments/assets/97f7b2f0-2c54-4f77-8017-e3af1b55da7c" />
+
+### Voltage divider
+<img width="2200" height="1700" alt="schema-quixie-5" src="https://github.com/user-attachments/assets/e58a88eb-6501-40c8-9c23-099f7df2cba0" />
+
+### Battery and charging
+<img width="2200" height="1700" alt="schema-quixie-6" src="https://github.com/user-attachments/assets/95f4600a-caf8-472d-acab-f20f8e250e37" />
+
+---
+
 ## Build Guide
 
 ### Step 1 - Export Gerbers
