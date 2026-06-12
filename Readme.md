@@ -4,7 +4,7 @@ Quixie is a small autonomous RC delivery car. The custom PCB handles motor contr
 
 > Built by **AlAoTach** for [Fallout](https://fallout.hackclub.com/)
 
-<img width="1587" height="2245" alt="Blue and Pink Modern Film Poster(4)" src="https://github.com/user-attachments/assets/5c156925-4bee-4ae4-8458-a2cd0e61f788" />
+<img width="1587" height="2245" alt="Blue and Pink Modern Film Poster" src="https://github.com/user-attachments/assets/3df8b9fa-07c8-4732-8cd4-a5d242b62f36" />
 
 ---
 
